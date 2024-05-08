@@ -1,0 +1,37 @@
+{
+  "name": "ajiho/illuminate-files-scoper",
+  "type": "composer-plugin",
+  "description": "Add a namespace to the files under the Illuminate component autoload.files",
+  "keywords": [
+    "composer",
+    "illuminate",
+    "laravel",
+    "database",
+    "sql",
+    "orm"
+  ],
+  "homepage": "https://github.com/ajiho/illuminate-files-scoper",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ajiho\\IlluminateFilesScoper\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ajiho",
+      "email": "lujiahao@88.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "composer-plugin-api": "^2.3",
+    "nikic/php-parser": "^4.17"
+  },
+  "require-dev": {
+    "composer/composer": "^2.3"
+  },
+  "extra": {
+    "class": "Ajiho\\IlluminateFilesScoper\\Plugin"
+  }
+}
